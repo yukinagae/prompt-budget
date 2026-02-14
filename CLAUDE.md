@@ -15,8 +15,7 @@ Build a Vercel-deployable web dashboard that estimates LLM API costs from token/
    - /opsx:apply
    - /opsx:verify
    - /opsx:archive
-2. Track tasks in Beads when there are dependencies or parallel work.
-3. Keep changes small and testable. Prefer multiple small commits.
+2. Track tasks in OpenSpec's tasks.md. Keep changes small and testable. Prefer multiple small commits.
 
 ## Commands you can run
 - pnpm install
