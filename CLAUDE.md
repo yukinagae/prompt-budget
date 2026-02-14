@@ -12,6 +12,8 @@ Build a Vercel-deployable web dashboard that estimates LLM API costs from token/
 1. Read CLAUDE.md fully before writing any code or creating any files.
 2. Verify required tools are installed: `openspec --version`
    - If missing: `npm install -g @fission-ai/openspec@latest && openspec init --tools claude`
+3. Verify entire is enabled: `entire status`
+   - If missing: `brew install entireio/tap/entire && entire enable`
 
 ## Workflow (must follow)
 1. Use OpenSpec to create and follow a change plan:
@@ -22,6 +24,7 @@ Build a Vercel-deployable web dashboard that estimates LLM API costs from token/
    - /opsx:archive
    - If slash commands are unavailable, run `openspec` CLI directly and follow each command file in .claude/commands/opsx/
 2. Track tasks in OpenSpec's tasks.md. Keep changes small and testable. Prefer multiple small commits.
+3. If `/opsx:apply` fails or produces unwanted changes, use `entire rewind` to restore to a previous checkpoint.
 
 ## Git commits
 - Use Conventional Commits: https://www.conventionalcommits.org/en/v1.0.0/
