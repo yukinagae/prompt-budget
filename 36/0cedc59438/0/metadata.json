@@ -1,0 +1,32 @@
+{
+  "cli_version": "0.4.4",
+  "checkpoint_id": "360cedc59438",
+  "session_id": "337490c1-20f9-4757-b3f2-3e70cf9c0b20",
+  "strategy": "manual-commit",
+  "created_at": "2026-02-15T13:05:12.883178Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".claude/commands/opsx/ff.md",
+    "CLAUDE.md"
+  ],
+  "agent": "Claude Code",
+  "transcript_identifier_at_start": "81d5cb10-73a0-46e0-8740-465fdcd8c77c",
+  "token_usage": {
+    "input_tokens": 15,
+    "cache_creation_tokens": 30555,
+    "cache_read_tokens": 254962,
+    "output_tokens": 2508,
+    "api_call_count": 11
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-02-15T13:05:12.855477Z",
+    "agent_lines": 22,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 22,
+    "agent_percentage": 100
+  },
+  "transcript_path": ".claude/projects/-Users-yukinagae-repos-prompt-budget/337490c1-20f9-4757-b3f2-3e70cf9c0b20.jsonl"
+}
