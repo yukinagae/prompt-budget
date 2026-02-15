@@ -1,0 +1,36 @@
+entireを開発のワークフローに入れてみるのはどうでしょう？
+https://github.com/entireio/cli
+
+---
+
+3でお願いします。
+
+ちなみにbd（beads）はもう使ってないので競合しないはずです。
+
+---
+
+git pushしておいてください。
+
+---
+
+entireはどういうログが保存されていますか？
+
+---
+
+entireのbranchには何が保存されていますか？
+
+---
+
+`entire/bcea1b3-e3b0c4` branchはローカルにのみありますか？
+
+---
+
+現状ではentireのmetadata（prompt.txtなど）は `entire/bcea1b3-e3b0c4` にしか無いですか？
+
+---
+
+localブランチにのみあるのはentireの設計思想ですか？
+
+---
+
+もしかしたら、promptの情報は意図せずcommitしたくない情報も含まれている可能性もあるので、デフォルトはlocalブランチになっている可能性はありますか？
