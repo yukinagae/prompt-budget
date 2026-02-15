@@ -141,13 +141,14 @@ const styles: Record<string, React.CSSProperties> = {
   presetLabel: {
     fontWeight: 600,
     fontSize: "0.9rem",
-    color: "#444",
+    color: "var(--color-preset-label)",
   },
   presetButton: {
     padding: "0.35rem 0.85rem",
-    border: "1px solid #ccc",
+    border: "1px solid var(--color-border)",
     borderRadius: 6,
-    background: "#fff",
+    background: "var(--color-surface)",
+    color: "var(--color-text)",
     cursor: "pointer",
     fontSize: "0.875rem",
     transition: "background 0.15s",
@@ -165,18 +166,20 @@ const styles: Record<string, React.CSSProperties> = {
   },
   fieldName: {
     fontWeight: 500,
-    color: "#333",
+    color: "var(--color-field-name)",
   },
   note: {
     fontWeight: 400,
-    color: "#888",
+    color: "var(--color-note)",
     fontSize: "0.8rem",
   },
   input: {
     padding: "0.45rem 0.6rem",
-    border: "1px solid #ccc",
+    border: "1px solid var(--color-border)",
     borderRadius: 6,
     fontSize: "0.95rem",
     width: "100%",
+    background: "var(--color-input-bg)",
+    color: "var(--color-text)",
   },
 };

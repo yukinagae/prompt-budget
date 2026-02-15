@@ -49,8 +49,8 @@ export default function CostSummary({ breakdown }: Props) {
 
 const styles: Record<string, React.CSSProperties> = {
   card: {
-    background: "#fff",
-    border: "1px solid #e0e0e0",
+    background: "var(--color-surface)",
+    border: "1px solid var(--color-border-light)",
     borderRadius: 8,
     padding: "1.5rem",
     marginTop: "1.5rem",
@@ -58,7 +58,7 @@ const styles: Record<string, React.CSSProperties> = {
   heading: {
     fontSize: "1.1rem",
     marginBottom: "1rem",
-    color: "#333",
+    color: "var(--color-field-name)",
   },
   total: {
     display: "flex",
@@ -73,7 +73,7 @@ const styles: Record<string, React.CSSProperties> = {
   totalValue: {
     fontSize: "2rem",
     fontWeight: 700,
-    color: "#1a73e8",
+    color: "var(--color-primary)",
   },
   row: {
     display: "flex",
@@ -82,7 +82,7 @@ const styles: Record<string, React.CSSProperties> = {
     fontSize: "0.95rem",
   },
   label: {
-    color: "#555",
+    color: "var(--color-text-muted)",
   },
   value: {
     fontVariantNumeric: "tabular-nums",
@@ -90,12 +90,12 @@ const styles: Record<string, React.CSSProperties> = {
   },
   divider: {
     border: "none",
-    borderTop: "1px solid #eee",
+    borderTop: "1px solid var(--color-divider)",
     margin: "0.75rem 0",
   },
   subheading: {
     fontSize: "0.85rem",
-    color: "#888",
+    color: "var(--color-subheading)",
     marginBottom: "0.5rem",
     textTransform: "uppercase",
     letterSpacing: "0.04em",
