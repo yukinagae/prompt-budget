@@ -12,8 +12,8 @@
 
 ## 3. Compile Lock File
 
-- [ ] 3.1 Run `gh aw compile pr-review` in the repository root to generate `.github/workflows/pr-review.lock.yml`
-- [ ] 3.2 Verify both `.github/workflows/pr-review.md` and `.github/workflows/pr-review.lock.yml` exist
+- [x] 3.1 Run `gh aw compile pr-review` in the repository root to generate `.github/workflows/pr-review.lock.yml`
+- [x] 3.2 Verify both `.github/workflows/pr-review.md` and `.github/workflows/pr-review.lock.yml` exist
 
 ## 4. Documentation
 
@@ -23,6 +23,6 @@
 
 ## 5. Commit and Verify
 
-- [ ] 5.1 Commit `.github/workflows/pr-review.md` and `.github/workflows/pr-review.lock.yml`
-- [ ] 5.2 Push and open a test PR to verify Claude posts a review comment
-- [ ] 5.3 Confirm the review comment includes the automated review notice
+- [x] 5.1 Commit `.github/workflows/pr-review.md` and `.github/workflows/pr-review.lock.yml`
+- [x] 5.2 Push and open a test PR to verify Claude posts a review comment
+- [x] 5.3 Confirm the review comment includes the automated review notice
