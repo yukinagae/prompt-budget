@@ -1,0 +1,29 @@
+{
+  "cli_version": "0.4.4",
+  "checkpoint_id": "e78f4672b930",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".gitattributes",
+    ".github/aw/actions-lock.json",
+    ".github/workflows/pr-review.md",
+    "openspec/changes/gh-aw-pr-review/tasks.md"
+  ],
+  "sessions": [
+    {
+      "metadata": "/e7/8f4672b930/0/metadata.json",
+      "transcript": "/e7/8f4672b930/0/full.jsonl",
+      "context": "/e7/8f4672b930/0/context.md",
+      "content_hash": "/e7/8f4672b930/0/content_hash.txt",
+      "prompt": "/e7/8f4672b930/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 16,
+    "cache_creation_tokens": 52769,
+    "cache_read_tokens": 834085,
+    "output_tokens": 1672,
+    "api_call_count": 14
+  }
+}

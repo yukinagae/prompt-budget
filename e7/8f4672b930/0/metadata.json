@@ -1,0 +1,36 @@
+{
+  "cli_version": "0.4.4",
+  "checkpoint_id": "e78f4672b930",
+  "session_id": "3af60df4-6d29-45d2-86ae-5a1e11ebf330",
+  "strategy": "manual-commit",
+  "created_at": "2026-02-15T15:11:24.852893Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".gitattributes",
+    ".github/aw/actions-lock.json",
+    ".github/workflows/pr-review.md",
+    "openspec/changes/gh-aw-pr-review/tasks.md"
+  ],
+  "agent": "Claude Code",
+  "transcript_identifier_at_start": "34999df1-69fe-4922-872d-a906b2cd4452",
+  "checkpoint_transcript_start": 190,
+  "transcript_lines_at_start": 190,
+  "token_usage": {
+    "input_tokens": 16,
+    "cache_creation_tokens": 52769,
+    "cache_read_tokens": 834085,
+    "output_tokens": 1672,
+    "api_call_count": 14
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-02-15T15:11:24.77643Z",
+    "agent_lines": 4,
+    "human_added": 1067,
+    "human_modified": 18,
+    "human_removed": 0,
+    "total_committed": 1089,
+    "agent_percentage": 0.3673094582185491
+  },
+  "transcript_path": ".claude/projects/-Users-yukinagae-repos-prompt-budget/3af60df4-6d29-45d2-86ae-5a1e11ebf330.jsonl"
+}
