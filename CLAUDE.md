@@ -26,6 +26,28 @@ Build a Vercel-deployable web dashboard that estimates LLM API costs from token/
 2. Track tasks in OpenSpec's tasks.md. Keep changes small and testable. Prefer multiple small commits.
 3. If `/opsx:apply` fails or produces unwanted changes, use `entire rewind` to restore to a previous checkpoint.
 
+## Review gate (must follow)
+After both `proposal.md` and `design.md` are created, you MUST stop and present a review summary before proceeding to any subsequent artifact (e.g., `tasks.md`) or implementation.
+
+Review summary format (Review Pack):
+```
+<one-line summary of the change>
+
+Non-goals:
+- <what is explicitly out of scope>
+
+Key Design Decisions:
+- <main architecture or implementation choices>
+
+Assumptions & Risks:
+- <key assumptions made or risks identified>
+
+Decision:
+Run /opsx:apply ?
+```
+
+Do NOT create `tasks.md` or run `/opsx:apply` until the user explicitly approves.
+
 ## Git commits
 - Use Conventional Commits: https://www.conventionalcommits.org/en/v1.0.0/
 - Commit messages must be in English.
