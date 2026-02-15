@@ -2,6 +2,8 @@
 
 A Vercel-deployable web dashboard for estimating LLM API costs from token and call parameters.
 
+<!-- test: trigger gh-aw pr review -->
+
 ## What it does
 
 Enter your pricing and usage parameters and instantly see:
