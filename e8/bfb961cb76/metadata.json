@@ -1,0 +1,42 @@
+{
+  "cli_version": "0.4.4",
+  "checkpoint_id": "e8bfb961cb76",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 3,
+  "files_touched": [
+    "openspec/changes/archive/2026-02-15-dark-theme-support/.openspec.yaml",
+    "openspec/changes/archive/2026-02-15-dark-theme-support/design.md",
+    "openspec/changes/archive/2026-02-15-dark-theme-support/proposal.md",
+    "openspec/changes/archive/2026-02-15-dark-theme-support/specs/cost-form-ui/spec.md",
+    "openspec/changes/archive/2026-02-15-dark-theme-support/specs/cost-summary-ui/spec.md",
+    "openspec/changes/archive/2026-02-15-dark-theme-support/specs/dark-theme/spec.md",
+    "openspec/changes/archive/2026-02-15-dark-theme-support/tasks.md",
+    "openspec/changes/dark-theme-support/.openspec.yaml",
+    "openspec/changes/dark-theme-support/design.md",
+    "openspec/changes/dark-theme-support/proposal.md",
+    "openspec/changes/dark-theme-support/specs/cost-form-ui/spec.md",
+    "openspec/changes/dark-theme-support/specs/cost-summary-ui/spec.md",
+    "openspec/changes/dark-theme-support/specs/dark-theme/spec.md",
+    "openspec/changes/dark-theme-support/tasks.md",
+    "openspec/specs/cost-form-ui/spec.md",
+    "openspec/specs/cost-summary-ui/spec.md",
+    "openspec/specs/dark-theme/spec.md"
+  ],
+  "sessions": [
+    {
+      "metadata": "/e8/bfb961cb76/0/metadata.json",
+      "transcript": "/e8/bfb961cb76/0/full.jsonl",
+      "context": "/e8/bfb961cb76/0/context.md",
+      "content_hash": "/e8/bfb961cb76/0/content_hash.txt",
+      "prompt": "/e8/bfb961cb76/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 39,
+    "cache_creation_tokens": 248948,
+    "cache_read_tokens": 2086476,
+    "output_tokens": 2452,
+    "api_call_count": 25
+  }
+}

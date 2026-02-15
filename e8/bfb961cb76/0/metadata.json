@@ -1,0 +1,49 @@
+{
+  "cli_version": "0.4.4",
+  "checkpoint_id": "e8bfb961cb76",
+  "session_id": "cae906f8-0bbe-407a-8c0b-15d8c3a5a0a1",
+  "strategy": "manual-commit",
+  "created_at": "2026-02-15T13:11:26.212064Z",
+  "branch": "main",
+  "checkpoints_count": 3,
+  "files_touched": [
+    "openspec/changes/archive/2026-02-15-dark-theme-support/.openspec.yaml",
+    "openspec/changes/archive/2026-02-15-dark-theme-support/design.md",
+    "openspec/changes/archive/2026-02-15-dark-theme-support/proposal.md",
+    "openspec/changes/archive/2026-02-15-dark-theme-support/specs/cost-form-ui/spec.md",
+    "openspec/changes/archive/2026-02-15-dark-theme-support/specs/cost-summary-ui/spec.md",
+    "openspec/changes/archive/2026-02-15-dark-theme-support/specs/dark-theme/spec.md",
+    "openspec/changes/archive/2026-02-15-dark-theme-support/tasks.md",
+    "openspec/changes/dark-theme-support/.openspec.yaml",
+    "openspec/changes/dark-theme-support/design.md",
+    "openspec/changes/dark-theme-support/proposal.md",
+    "openspec/changes/dark-theme-support/specs/cost-form-ui/spec.md",
+    "openspec/changes/dark-theme-support/specs/cost-summary-ui/spec.md",
+    "openspec/changes/dark-theme-support/specs/dark-theme/spec.md",
+    "openspec/changes/dark-theme-support/tasks.md",
+    "openspec/specs/cost-form-ui/spec.md",
+    "openspec/specs/cost-summary-ui/spec.md",
+    "openspec/specs/dark-theme/spec.md"
+  ],
+  "agent": "Claude Code",
+  "transcript_identifier_at_start": "a2a3250e-1ab7-4808-91f2-db8e7dc4357f",
+  "checkpoint_transcript_start": 227,
+  "transcript_lines_at_start": 227,
+  "token_usage": {
+    "input_tokens": 39,
+    "cache_creation_tokens": 248948,
+    "cache_read_tokens": 2086476,
+    "output_tokens": 2452,
+    "api_call_count": 25
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-02-15T13:11:26.121727Z",
+    "agent_lines": 247,
+    "human_added": 184,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 431,
+    "agent_percentage": 57.30858468677494
+  },
+  "transcript_path": ".claude/projects/-Users-yukinagae-repos-prompt-budget/cae906f8-0bbe-407a-8c0b-15d8c3a5a0a1.jsonl"
+}
