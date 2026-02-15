@@ -1,0 +1,37 @@
+{
+  "cli_version": "0.4.4",
+  "checkpoint_id": "9c1282b3d7b7",
+  "session_id": "3af60df4-6d29-45d2-86ae-5a1e11ebf330",
+  "strategy": "manual-commit",
+  "created_at": "2026-02-15T15:02:57.759162Z",
+  "branch": "main",
+  "checkpoints_count": 4,
+  "files_touched": [
+    ".github/workflows/pr-review.md",
+    "README.md",
+    "openspec/changes/gh-aw-pr-review/.openspec.yaml",
+    "openspec/changes/gh-aw-pr-review/design.md",
+    "openspec/changes/gh-aw-pr-review/proposal.md",
+    "openspec/changes/gh-aw-pr-review/specs/gh-aw-pr-review/spec.md",
+    "openspec/changes/gh-aw-pr-review/tasks.md"
+  ],
+  "agent": "Claude Code",
+  "transcript_identifier_at_start": "854bf9b5-fe74-48bf-8203-6fdcf6ab09c4",
+  "token_usage": {
+    "input_tokens": 124,
+    "cache_creation_tokens": 44508,
+    "cache_read_tokens": 2565475,
+    "output_tokens": 7806,
+    "api_call_count": 70
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-02-15T15:02:57.690245Z",
+    "agent_lines": 307,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 307,
+    "agent_percentage": 100
+  },
+  "transcript_path": ".claude/projects/-Users-yukinagae-repos-prompt-budget/3af60df4-6d29-45d2-86ae-5a1e11ebf330.jsonl"
+}
