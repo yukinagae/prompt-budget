@@ -1,9 +1,9 @@
 ## 1. Prerequisites
 
 - [x] 1.1 Install GitHub CLI locally: `brew install gh`
-- [ ] 1.2 Authenticate GitHub CLI: `gh auth login`
-- [ ] 1.3 Install gh-aw extension: `gh extension install github/gh-aw`
-- [ ] 1.4 Add `ANTHROPIC_API_KEY` to GitHub Secrets in repository settings
+- [x] 1.2 Authenticate GitHub CLI: `gh auth login`
+- [x] 1.3 Install gh-aw extension: `gh extension install github/gh-aw`
+- [x] 1.4 Add `ANTHROPIC_API_KEY` to GitHub Secrets in repository settings
 
 ## 2. Workflow Instruction File
 

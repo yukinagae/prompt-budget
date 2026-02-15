@@ -2,13 +2,9 @@
 on:
   pull_request:
     types: [opened, synchronize]
-permissions:
-  pull-requests: write
-  contents: read
+permissions: read-all
 engine: claude
 safe-outputs:
-  submit-pull-request-review:
-    max: 1
   add-comment:
     max: 1
 timeout-minutes: 10
